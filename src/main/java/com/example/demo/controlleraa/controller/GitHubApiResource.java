@@ -6,13 +6,11 @@ import com.example.demo.controlleraa.error.ErrorResponse;
 import io.smallrye.mutiny.Uni;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
-import javax.inject.Inject;
-
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.Response;
-
+import jakarta.inject.Inject;
 //import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

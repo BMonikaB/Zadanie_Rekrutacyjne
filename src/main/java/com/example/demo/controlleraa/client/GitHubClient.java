@@ -11,7 +11,7 @@ import jakarta.ws.rs.Path;
 
 
 import java.util.List;
-@RegisterRestClient
+@RegisterRestClient(baseUri = "https://api.github.com")
 public interface GitHubClient {
     @GET
     @Path("/users/{username}/repos")
